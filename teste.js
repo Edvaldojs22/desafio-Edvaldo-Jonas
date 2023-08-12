@@ -42,7 +42,7 @@ class CaixaDaLanchonete {
              
 
                 if(menuItem.descricao.includes(itemExtra)){
-                    return "Item extra não pode ser pedido sem o principal"; 
+                    return "Item extra não pode ser pedido sem o principal";
                 }
             }
             
@@ -76,7 +76,3 @@ class CaixaDaLanchonete {
 
 const caixa = new CaixaDaLanchonete()
 console.log(caixa.calcularValorDaCompra('credito', ['combo1,1','cafe,2']));
-
-
-
-//Desculpem mais na parte de colocar so o 'chantily,1 não conseguir exibir a mensagem  "Item extra não pode ser pedido sem o principal" 😥
